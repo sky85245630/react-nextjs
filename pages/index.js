@@ -10,10 +10,14 @@ export default function Home() {
             </Head>
 
             <main>
+                {/* 瀏覽器會全部刷新 */}
                 <h1 className="title">
                     Welcome to 123<a href="posts/first-post">Next.js!</a>
                 </h1>
 
+                {/* 瀏覽器不會全部刷新 */}
+                {/* 可看看此範例 */}
+                {/* https://nextjs.org/learn/basics/navigate-between-pages/client-side */}
                 <h1 className="title">
                     Read{" "}
                     <Link href="/posts/first-post">
