@@ -9,6 +9,13 @@ export default function FirstPost() {
                     <a>Back to home</a>
                 </Link>
             </h2>
+
+            {/* 若要客製化classname可這樣寫 */}
+            <Link href="/">
+                <a className="foo" rel="noopener noreferrer">
+                    className
+                </a>
+            </Link>
         </>
     );
 }
